@@ -147,7 +147,8 @@ table {
 }
 
 .welcome-jumbo {
-  max-width: calc(100vw - 350px);
+  transform: translate3d(300px, 0, 0);
+  max-width: calc(100vw - 300px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,6 +211,18 @@ table {
   padding: 20px;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  #about-page {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #about-page {
+    padding: 20px;
+  }
+}
+
 body {
   line-height: 1;
   background: white;
@@ -248,7 +261,6 @@ body {
 
 #app-layout {
   display: grid;
-  grid-template-columns: 350px 1fr;
   width: 100%;
   height: 100vh;
 }
@@ -256,7 +268,9 @@ body {
 #app-layout .side-menu {
   background: white;
   padding: 50px;
-  position: relative;
+  position: absolute;
+  height: 100vh;
+  width: 300px;
 }
 
 #app-layout .side-menu .logo {
@@ -335,7 +349,8 @@ body {
 }
 
 #app-layout #content-section {
-  max-width: calc(100vw - 350px);
+  transform: translate3d(300px, 0, 0);
+  max-width: calc(100vw - 300px);
   background: #ed4852;
   /* Old browsers */
   /* FF3.6-15 */
@@ -546,5 +561,125 @@ h2 {
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  h2 {
+    line-height: 1.4;
+  }
+
+  #app-layout .side-menu {
+    display: none;
+    transform: translate3d(-300px, 0, 0);
+  }
+
+  #app-layout .welcome-jumbo {
+    width: 100%;
+    max-width: 100vw;
+    transform: translate3d(0, 0, 0);
+    padding: 20px;
+  }
+
+  #app-layout #content-section {
+    width: 100%;
+    overflow-y: scroll;
+    max-width: 100vw;
+    transform: translate3d(0, 0, 0);
+    padding: 20px;
+  }
+
+  #information {
+    grid-template-columns: 100%;
+    grid-template-rows: 200px auto;
+  }
+
+  #information .info {
+    padding: 20px;
+  }
+
+  #information .info .paragraphs {
+    grid-template-columns: 100%;
+  }
+
+  #information .info span {
+    font-size: 1rem;
+  }
+
+  #food-preview {
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #food-preview .container .right-btn {
+    right: -18px;
+    height: 30px;
+    width: 30px;
+  }
+
+  #food-preview .container .left-btn {
+    left: -18px;
+    height: 30px;
+    width: 30px;
+  }
+
+  #food-preview .food-slider .slide {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #app-layout .side-menu {
+    display: none;
+  }
+
+  #app-layout .welcome-jumbo {
+    width: 100%;
+    max-width: 100vw;
+    transform: translate3d(0, 0, 0);
+    padding: 20px;
+  }
+
+  #app-layout #content-section {
+    width: 100%;
+    overflow-y: scroll;
+    max-width: 100vw;
+    transform: translate3d(0, 0, 0);
+    padding: 20px;
+  }
+
+  #information {
+    grid-template-columns: 100%;
+    grid-template-rows: 400px auto;
+  }
+
+  #information .info {
+    padding: 20px 50px;
+  }
+
+  #food-preview {
+    padding: 20px;
+  }
+
+  #food-preview .food-slider .slide {
+    width: 50%;
+  }
+
+  #food-preview .container .right-btn {
+    right: -18px;
+  }
+
+  #food-preview .container .left-btn {
+    left: -18px;
+  }
+
+  #food-preview .button-rounded {
+    background: #ed4852;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
 }
 

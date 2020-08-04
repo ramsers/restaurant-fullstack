@@ -13,15 +13,6 @@
                         roof party viral hashtag organic blog gluten-free. Hella helvetica activated charcoal cliche tumblr, 
                         kale chips humblebrag letterpress blog church-key.
                     </p>
-                    {{-- <p>
-                        I'm baby blog swag subway tile church-key listicle. Af street art franzen, 
-                        you probably haven't heard of them bitters selfies put a bird on it aesthetic adaptogen synth taiyaki. 
-                        Raw denim jean shorts glossier polaroid green juice listicle freegan copper mug. Retro crucifix wolf flannel, 
-                        roof party viral hashtag organic blog gluten-free. Hella helvetica activated charcoal cliche tumblr, 
-                        kale chips humblebrag letterpress blog church-key. Gochujang lomo taiyaki, meggings kinfolk gentrify mixtape cornhole 
-                        coloring book. Post-ironic ramps forage sriracha pabst slow-carb deep v 
-                        readymade ugh pickled you probably haven't heard of them DIY.
-                    </p> --}}
                 </div>
                 <div class="col-md-6 m-auto">
                     <img src="img/about-page-img.jpeg" class="img-fluid" alt="restaurant-img">
