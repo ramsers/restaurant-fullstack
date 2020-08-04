@@ -297,7 +297,7 @@ table {
   grid-gap: 20px;
   line-height: 1.7;
   color: #525e66;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin-bottom: 3rem;
 }
 
@@ -467,8 +467,8 @@ table {
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 body {
