@@ -1,5 +1,5 @@
-#about-page {
-    padding: 100px;
+#waitlist-page {
+    padding: 70px;
     h1{
         font-size:3rem;
         font-weight: 700;
@@ -12,18 +12,35 @@
         margin-bottom: .5rem;
         font-weight: 400;
     }
-  
+    form {
+        .form-group {
+            label {
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            .form-control {
+                padding: 10px !important;
+                border: 2px solid #9c1b24;
+                font-size: .8rem;
+                height: auto;
+            }
+            button[type="submit"] {
+                background: #9c1b24;
+                border: none;
+            }
+        }
+    }
 }
 
 @media (min-width: 0px) and (max-width: 767px) { 
-    #about-page {
+    #waitlist-page {
         padding: 20px;
     }
    }
   
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) and (max-width: 991px) { 
-    #about-page {
+    #waitlist-page {
         padding: 20px;
     }
   }

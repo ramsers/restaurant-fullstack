@@ -206,11 +206,6 @@ table {
   font-weight: 400;
 }
 
-#about-page .content-box {
-  background: white;
-  padding: 20px;
-}
-
 @media (min-width: 0px) and (max-width: 767px) {
   #about-page {
     padding: 20px;
@@ -219,6 +214,53 @@ table {
 
 @media (min-width: 768px) and (max-width: 991px) {
   #about-page {
+    padding: 20px;
+  }
+}
+
+#waitlist-page {
+  padding: 70px;
+}
+
+#waitlist-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+#waitlist-page p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+#waitlist-page form .form-group label {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#waitlist-page form .form-group .form-control {
+  padding: 10px !important;
+  border: 2px solid #9c1b24;
+  font-size: 0.8rem;
+  height: auto;
+}
+
+#waitlist-page form .form-group button[type=submit] {
+  background: #9c1b24;
+  border: none;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #waitlist-page {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #waitlist-page {
     padding: 20px;
   }
 }
@@ -561,6 +603,11 @@ h2 {
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.content-box {
+  background: white;
+  padding: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
