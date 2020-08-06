@@ -4,6 +4,8 @@
 @import 'bootstrap.min.css';
 @import "reset";
 @import "home";
+@import 'menu/index';
+@import 'pages/offers';
 @import 'pages/about';
 @import 'pages/waitlist';
 
@@ -263,7 +265,7 @@ body {
     .slide{
       width: 20%;
       position: relative;
-      height: 500px;
+      height: 510px;
       cursor: pointer;
       display: inline-block;
       white-space: normal;

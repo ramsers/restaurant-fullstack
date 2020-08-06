@@ -31,9 +31,6 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('pages/about');
 });
-Route::get('/giftcards', function () {
-    return view('pages/giftcards');
-});
 Route::get('/offers', function () {
     return view('pages/offers');
 });
