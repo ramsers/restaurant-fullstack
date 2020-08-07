@@ -60,7 +60,7 @@ Route::get('/admin/register', function () {
     return view('auth/register');
 });
 Route::get('/admin/login', function () {
-    return view('admin/login');
+    return view('auth/login');
 });
 // Route::get('/app', function () {
 //     return view('test');
