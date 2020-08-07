@@ -2007,6 +2007,7 @@ Pageheader
 
 .page-breadcrumb .breadcrumb-link {
     color: #a6a6b7;
+    padding-right: 10px;
 }
 
 .page-breadcrumb .breadcrumb-link:hover {
@@ -2017,7 +2018,7 @@ Pageheader
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 0px;
+    /* padding: 0px; */
     margin-bottom: 0px;
     list-style: none;
     background-color: transparent;
