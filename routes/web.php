@@ -57,7 +57,7 @@ Route::get('/admin/users/edit', 'admin\UsersController@edit');
 // Admin Authentication
 
 Route::get('/admin/register', function () {
-    return view('admin/register');
+    return view('auth/register');
 });
 Route::get('/admin/login', function () {
     return view('admin/login');
