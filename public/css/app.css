@@ -360,11 +360,11 @@ table {
 }
 
 #waitlist-page {
-  padding: 70px;
+  padding: 60px;
 }
 
 #waitlist-page h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: black;
   margin-bottom: 1rem;
@@ -378,6 +378,7 @@ table {
 }
 
 #waitlist-page form .form-group label {
+  font-size: 0.8rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -540,7 +541,7 @@ body {
   /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #information {

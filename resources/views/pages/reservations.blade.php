@@ -4,9 +4,17 @@
      <div id="waitlist-page">
         <div class="content-box">   
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <h1>Get On The List</h1>
                     <form>
+                      <div class="form-group">
+                        <label for="firstNameInput">First Name</label>
+                        <input type="text" name="fname" class="form-control" id="firstNameInput" placeholder="John">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastNameInput">Last Name</label>
+                        <input type="text" name="lname" class="form-control" id="lastNameInput" placeholder="Doe">
+                      </div>
                         <div class="form-group">
                           <label for="emailInput">Email address</label>
                           <input type="email" name="email" class="form-control" id="emailInput" placeholder="name@example.com">
@@ -41,7 +49,7 @@
                       </form>
                 </div>
                 <div class="col-md-6">
-                    <p>Please note this is not a reservation. You will be added to the current waitlist. You may have a short wait once you arrive we will prepare your table.</p>
+                    <p>Please note this is a reservation. If no reservations are available you will be added to the current waitlist. You may have a short wait once you arrive we will prepare your table.</p>
                 </div>
             </div>
          </div>
